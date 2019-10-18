@@ -1,10 +1,10 @@
-package com.peter.algotest;
+package com.peter.algo.level1test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import com.peter.algo.Multiple;
+import com.peter.algo.level1.Multiple;
 
 class MultipleTest {
 

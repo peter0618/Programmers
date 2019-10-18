@@ -1,4 +1,4 @@
-package com.peter.algo;
+package com.peter.algo.level1;
 
 import java.util.HashMap;
 

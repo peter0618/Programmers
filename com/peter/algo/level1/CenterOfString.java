@@ -1,4 +1,4 @@
-package com.peter.algo;
+package com.peter.algo.level1;
 
 public class CenterOfString {
 	

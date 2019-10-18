@@ -1,11 +1,11 @@
-package com.peter.algotest;
+package com.peter.algo.level1test;
 
 import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import com.peter.algo.ComparePandY;
+import com.peter.algo.level1.ComparePandY;
 
 public class ComparePandYTest {
 	

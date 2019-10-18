@@ -1,10 +1,10 @@
-package com.peter.algotest;
+package com.peter.algo.level1test;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import com.peter.algo.HatesSameNum;
+import com.peter.algo.level1.HatesSameNum;
 
 public class HatesSameNumTest {
 
