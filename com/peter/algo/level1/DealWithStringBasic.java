@@ -24,4 +24,8 @@ public class DealWithStringBasic {
             return true;
         }
     }
+    
+    public boolean solution2(String s) {
+        return ((s.length() == 4) || (s.length() == 6)) ? s.matches("^[0-9]+$") : false;
+    }
 }
