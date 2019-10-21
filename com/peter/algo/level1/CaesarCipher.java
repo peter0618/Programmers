@@ -10,30 +10,17 @@ public class CaesarCipher {
     
     public static String solution(String s, int n) {
         StringBuilder sb = new StringBuilder();
-        
         for(int i = 0 ; i < s.length(); i++) {
             char c = s.charAt(i);
             
-            if(c == ' ') {
-                sb.append(c);
-                continue;
-            }
             if( 'A' <= c && c <= 'Z') {
-                c = (char)(c + n);
-                if(c > 'Z') {
-                    c = (char) (c - 26);
-                }
+                c = (char) ( 'A' + (c + n - 'A') % 26 );
             }
             if( 'a' <= c && c <= 'z') {
-                c = (char)(c + n);
-                if(c > 'z') {
-                    c = (char) (c - 26);
-                }
+                c = (char) ( 'a' + (c + n - 'a') % 26 );
             }
-            
             sb.append(c);
         }
-        
         return sb.toString();
     }
 }
